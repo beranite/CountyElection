@@ -1,0 +1,175 @@
+{
+    "ElectionName": "County Council Election 2021",
+    "ElectionDate": "2021-11-15T00:00:00",
+    "VoteSessions": [
+        {
+            "Date": "2021-11-15",
+            "Stations": [
+                {
+                    "Station": {
+                        "Name": "Birkerød"
+                    },
+                    "PartyVotes": [
+                        {
+                            "Party": "A",
+                            "Votes": 611
+                        },
+                        {
+                            "Party": "B",
+                            "Votes": 320
+                        },
+                        {
+                            "Party": "C",
+                            "Votes": 939
+                        },
+                        {
+                            "Party": "D",
+                            "Votes": 78
+                        },
+                        {
+                            "Party": "F",
+                            "Votes": 167
+                        },
+                        {
+                            "Party": "I",
+                            "Votes": 70
+                        },
+                        {
+                            "Party": "L",
+                            "Votes": 715
+                        },
+                        {
+                            "Party": "O",
+                            "Votes": 62
+                        },
+                        {
+                            "Party": "R",
+                            "Votes": 11
+                        },
+                        {
+                            "Party": "V",
+                            "Votes": 774
+                        },
+                        {
+                            "Party": "Ø",
+                            "Votes": 262
+                        }
+                    ]
+                },
+                {
+                    "Station": {
+                        "Name": "Grunersvej"
+                    },
+                    "PartyVotes": [
+                {
+                    "Party": "A",
+                    "Votes": 331
+                },
+                {
+                    "Party": "B",
+                    "Votes": 257
+                },
+                {
+                    "Party": "C",
+                    "Votes": 1494
+                },
+                {
+                    "Party": "D",
+                    "Votes": 85
+                },
+                {
+                    "Party": "F",
+                    "Votes": 170
+                },
+                {
+                    "Party": "I",
+                    "Votes": 121
+                },
+                {
+                    "Party": "L",
+                    "Votes": 165
+                },
+                {
+                    "Party": "O",
+                    "Votes": 26
+                },
+                {
+                    "Party": "R",
+                    "Votes": 4
+                },
+                {
+                    "Party": "V",
+                    "Votes": 866
+                },
+                {
+                    "Party": "Ø",
+                    "Votes": 175
+                }
+                    ]
+                },
+                {
+                    "Station": {
+                        "Name": "Nærum"
+                    },
+                    "PartyVotes": [
+                        
+                        {
+                                "Party": "A",
+                    "Votes": 838
+                },
+                {
+                    "Party": "B",
+                    "Votes": 209
+                },
+                {
+                    "Party": "C",
+                    "Votes": 790
+                },
+                {
+                    "Party": "D",
+                    "Votes": 99
+                },
+                {
+                    "Party": "F",
+                    "Votes": 171
+                },
+                {
+                    "Party": "I",
+                    "Votes": 63
+                },
+                {
+                    "Party": "L",
+                    "Votes": 162
+                },
+                {
+                    "Party": "O",
+                    "Votes": 40
+                },
+                {
+                    "Party": "R",
+                    "Votes": 6
+                },
+                {
+                    "Party": "V",
+                    "Votes": 606
+                },
+                {
+                    "Party": "Ø",
+                    "Votes": 174
+                }
+                    ]
+                }
+            ],
+            "Parties": [
+                {
+                    "Id": "P1",
+                    "Name": "Party One"
+                },
+                {
+                    "Id": "P2",
+                    "Name": "Party Two"
+                }
+            ]
+        }
+    ]
+}
