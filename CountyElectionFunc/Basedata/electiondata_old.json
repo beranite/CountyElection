@@ -7,7 +7,7 @@
             "Stations": [
                 {
                     "Station": {
-                        "Name": "Birker\u00F8d"
+                        "Name": "Birkerød"
                     },
                     "PartyVotes": [
                         {
@@ -51,7 +51,7 @@
                             "Votes": 774
                         },
                         {
-                            "Party": "\u00D8",
+                            "Party": "Ø",
                             "Votes": 262
                         }
                     ]
@@ -102,14 +102,14 @@
                             "Votes": 866
                         },
                         {
-                            "Party": "\u00D8",
+                            "Party": "Ø",
                             "Votes": 175
                         }
                     ]
                 },
                 {
                     "Station": {
-                        "Name": "N\u00E6rum"
+                        "Name": "Nærum"
                     },
                     "PartyVotes": [
                         {
@@ -153,14 +153,14 @@
                             "Votes": 606
                         },
                         {
-                            "Party": "\u00D8",
+                            "Party": "Ø",
                             "Votes": 174
                         }
                     ]
                 },
                 {
                     "Station": {
-                        "Name": "Sj\u00E6ls\u00F8"
+                        "Name": "Sjælsø"
                     },
                     "PartyVotes": [
                         {
@@ -204,7 +204,7 @@
                             "Votes": 831
                         },
                         {
-                            "Party": "\u00D8",
+                            "Party": "Ø",
                             "Votes": 259
                         }
                     ]
@@ -255,7 +255,7 @@
                             "Votes": 430
                         },
                         {
-                            "Party": "\u00D8",
+                            "Party": "Ø",
                             "Votes": 85
                         }
                     ]
@@ -306,14 +306,14 @@
                             "Votes": 843
                         },
                         {
-                            "Party": "\u00D8",
+                            "Party": "Ø",
                             "Votes": 350
                         }
                     ]
                 },
                 {
                     "Station": {
-                        "Name": "Tr\u00F8r\u00F8d"
+                        "Name": "Trørød"
                     },
                     "PartyVotes": [
                         {
@@ -357,14 +357,14 @@
                             "Votes": 840
                         },
                         {
-                            "Party": "\u00D8",
+                            "Party": "Ø",
                             "Votes": 121
                         }
                     ]
                 },
                 {
                     "Station": {
-                        "Name": "Vedb\u00E6k"
+                        "Name": "Vedbæk"
                     },
                     "PartyVotes": [
                         {
@@ -408,7 +408,7 @@
                             "Votes": 1502
                         },
                         {
-                            "Party": "\u00D8",
+                            "Party": "Ø",
                             "Votes": 141
                         }
                     ]
@@ -459,7 +459,7 @@
                             "Votes": 636
                         },
                         {
-                            "Party": "\u00D8",
+                            "Party": "Ø",
                             "Votes": 109
                         }
                     ]
@@ -499,7 +499,7 @@
                     "Name": "Dansk Folkeparti"
                 },
                 {
-                    "Id": "\u00D8",
+                    "Id": "Ø",
                     "Name": "Enhedslisten"
                 },
                 {
@@ -510,33 +510,6 @@
                     "Id": "R",
                     "Name": "Enmandspartiet"
                 }
-            ],
-            "Unions": [
-                {
-                    "Name": "CDIO",
-                    "PartyIds": [
-                        "C",
-                        "D",
-                        "I",
-                        "O"
-                    ]
-                },
-                               {
-                    "Name": "ABL",
-                    "PartyIds": [
-                        "A",
-                        "B",
-                        "L"
-                    ]
-                },
-    {
-                    "Name": "FØ",
-                    "PartyIds": [
-                        "F",
-                        "Ø"
-                    ]
-                }
-
             ]
         }
     ]

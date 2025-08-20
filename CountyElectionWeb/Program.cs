@@ -22,8 +22,13 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseAntiforgery();
 
+
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
-VoteSessionDummyData.SaveToFile();
+//VoteSessionDummyData.SaveToFile();
+var ed = ElectionDataFileHandler.LoadFromEmbeddedFile();
+var electionEngine = new ElectionEngine(ed.VoteSessions.FirstOrDefault());
+electionEngine.CalculateMandates();
+ElectionDataFileHandler.SaveToFile(ed);
 app.Run();
