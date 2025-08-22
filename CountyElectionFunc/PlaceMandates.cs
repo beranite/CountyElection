@@ -21,18 +21,22 @@ namespace CountyElectionFunc
 
         override public string ToString()
         {
-            return $"{Id} - Votes: {OrigVotes}, Mandates: {Mandates}, VoteWeight: {VoteWeight}";
+            return $"{Id} - VoteWeight: {VoteWeight:F2}, Votes: {OrigVotes}, Mandates: {Mandates} ";
         }
     }
 
     public class PlaceMandates
     {
-        int Mandates { get; set; }
-        List<PlaceEntry> Entries { get; set; }
+        public int Mandates { get; set; }
+        public List<PlaceEntry> Entries { get; set; }
+
+        List<string> orderMandates;
+
         public PlaceMandates(int mandates, List<PlaceEntry> entries)
         {
             Mandates = mandates;
             Entries = entries;
+            orderMandates = new List<string>();
         }
 
 
@@ -42,8 +46,9 @@ namespace CountyElectionFunc
             {
                 var nextEntry = FindNextEntry();
                 if (nextEntry != null)
-                {
+                {                    
                     nextEntry.Mandates++;
+                    orderMandates.Add(nextEntry.ToString());
                     nextEntry.VoteWeight = ((decimal)nextEntry.OrigVotes) / (nextEntry.Mandates + 1);
                 }
             }

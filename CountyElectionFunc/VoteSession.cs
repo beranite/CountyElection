@@ -17,5 +17,7 @@ namespace CountyElectionFunc
             Parties = new List<ElectionParty>();
             Unions = new List<Union>();
         }
+
+        
     }
 }

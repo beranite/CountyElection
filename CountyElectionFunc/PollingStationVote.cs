@@ -15,5 +15,12 @@ namespace CountyElectionFunc
     {
         public string Party { get; set; }
         public int Votes { get; set; }
+
+        public int Mandates { get; set; }
+
+        override public string ToString()
+        {
+            return $"{Party} - Votes: {Votes}, Mandates: {Mandates}";
+        }   
     }
 }
